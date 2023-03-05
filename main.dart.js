@@ -57999,7 +57999,7 @@ A.a30.prototype={
 $0(){return this.a.d=this.b},
 $S:0}
 A.yA.prototype={
-J(a){var s=this,r=null,q=A.lk("assets/avatar.png",r,r),p=A.dH(r,20,r),o=A.hE("Hardik Mehta",r,r,r,4),n=A.dH(r,20,r),m=A.hE("Android. Flutter. Football. Play Station.\n\nTerrible Guitar Player.",A.aD(a).RG.Q,B.jP,r,2),l=A.dH(r,40,r),k=s.d,j=A.xG(A.dH(A.lk("assets/github.png",r,r),20,20),A.hE("Github",r,r,r,r),new A.N5(s),k),i=A.xG(A.dH(A.lk("assets/twitter.png",r,r),20,20),A.hE("Twitter",r,r,r,r),new A.N6(s),k),h=a.V(t.u2)
+J(a){var s=this,r=null,q=A.lk("assets/avatar.png",r,r),p=A.dH(r,20,r),o=A.hE("Hardik Mehta",r,r,r,4),n=A.dH(r,20,r),m=A.hE("Android. Flutter. Football. Gamer.\n\nTerrible Guitar Player.",A.aD(a).RG.Q,B.jP,r,2),l=A.dH(r,40,r),k=s.d,j=A.xG(A.dH(A.lk("assets/github.png",r,r),20,20),A.hE("Github",r,r,r,r),new A.N5(s),k),i=A.xG(A.dH(A.lk("assets/twitter.png",r,r),20,20),A.hE("Twitter",r,r,r,r),new A.N6(s),k),h=a.V(t.u2)
 h=h==null?r:h.f
 h.toString
 h=t.E
