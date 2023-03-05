@@ -63183,7 +63183,7 @@ A.ada()
 return new A.FC(1/q.gEJ(q),1/(0.05*p))})
 s($,"aqh","afr",()=>A.aeX(0.78)/A.aeX(0.9))
 s($,"atz","aam",()=>{A.aoQ()
-return A.a([new A.Dq("project/image_2048.png","2048","2048 Game. \nI was super addicted but never finished it \ud83e\udd72","http://localhost:61024/2048")],A.a5("u<Dq>"))})})();(function nativeSupport(){!function(){var s=function(a){var m={}
+return A.a([new A.Dq("project/image_2048.png","2048","A 2048 game implemented by flutter.. \nI was super addicted but was never able to finish it \ud83e\udd72","https://hardikm9850.github.io/2048")],A.a5("u<Dq>"))})})();(function nativeSupport(){!function(){var s=function(a){var m={}
 m[a]=1
 return Object.keys(hunkHelpers.convertToFastObject(m))[0]}
 v.getIsolateTag=function(a){return s("___dart_"+a+v.isolateTag)}
