@@ -60118,7 +60118,7 @@ A.a9n()
 return new A.Dr(1/q.gDw(q),1/(0.05*p))})
 s($,"alA","aby",()=>A.ab5(0.78)/A.ab5(0.9))
 s($,"aod","a6L",()=>{A.akg()
-return A.a([new A.Bq("assets/2048.png","2048","A 2048 game implemented by flutter.. \nI was super addicted but was never able to finish it \ud83e\udd72","https://hardikm9850.github.io/2048")],A.aa("x<Bq>"))})})();(function nativeSupport(){!function(){var s=function(a){var m={}
+return A.a([new A.Bq("assets/2048.png","2048","A 2048 game implemented with Flutter.. \nI was super addicted but was never able to finish it \ud83e\udd72","https://hardikm9850.github.io/2048")],A.aa("x<Bq>"))})})();(function nativeSupport(){!function(){var s=function(a){var m={}
 m[a]=1
 return Object.keys(hunkHelpers.convertToFastObject(m))[0]}
 v.getIsolateTag=function(a){return s("___dart_"+a+v.isolateTag)}
