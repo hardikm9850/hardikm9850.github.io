@@ -2,20 +2,20 @@
 const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
-const RESOURCES = {
-  "version.json": "99f64928745d0e5317b0c20344d73b04",
-"index.html": "7d970f6c6d11b812437f103f89afc2c2",
-"/": "7d970f6c6d11b812437f103f89afc2c2",
-"main.dart.js": "cf1c15e408659c4f69aa92a2ea84b5df",
-"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+
+const RESOURCES = {"version.json": "99f64928745d0e5317b0c20344d73b04",
+"index.html": "590e46889a353393ec5be689b1a44660",
+"/": "590e46889a353393ec5be689b1a44660",
+"main.dart.js": "f9a43c16f9d0dc223f563fa3e49bcda0",
+"flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
+"favicon.png": "173cf424df90f6213f4359d3509547e0",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "002e440c820f71fc62180e4f40384dcc",
-"assets/AssetManifest.json": "08c55e3f33b92ca99fbebd2e159ecb2a",
-"assets/NOTICES": "38dbfb6eaa4f9088e9f8f6cfec9c9250",
+"manifest.json": "2cc335af540a66cb655079f55e63fa5b",
+"assets/AssetManifest.json": "bd11be146e9a52ad033504bc4f1b3b7c",
+"assets/NOTICES": "d19a77c3125c68d101817afa14f9b75a",
 "assets/FontManifest.json": "71a4a82de411f155107da3f8dac64ebd",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Script-Regular.ttf": "55d2dcd4778875a53ff09320a85a5296",
@@ -37,10 +37,11 @@ const RESOURCES = {
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Size4-Regular.ttf": "85554307b465da7eb785fd3ce52ad282",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Main-BoldItalic.ttf": "e3c361ea8d1c215805439ce0941a1c8d",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Math-BoldItalic.ttf": "946a26954ab7fbd7ea78df07795a6cbc",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"assets/shaders/ink_sparkle.frag": "da71e2ab6d235cb4310a9866862d38b2",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
+"assets/AssetManifest.bin": "5db5469a977b2a760f25de998293821f",
+"assets/fonts/MaterialIcons-Regular.otf": "60aeaca48d17e94773979df8018a57f2",
 "assets/assets/2048.png": "3b3d8ab0770efbff26c67002cf1a6c26",
 "assets/assets/about.html": "50a21728c11f1fe3fb98fb85bf6bcb36",
 "assets/assets/instagram.png": "26631a4043b14dff84180bdf51c3cacb",
@@ -50,8 +51,6 @@ const RESOURCES = {
 "assets/assets/payment.png": "af40e11c217751ed9f12a86f2ce79081",
 "assets/assets/medium.png": "fb86f4060325caef8ea1f0fad0d25f40",
 "assets/assets/moon.png": "a270b8a10d1a9a52441bf5a322dd1b86",
-"assets/assets/project/2048.png": "3b3d8ab0770efbff26c67002cf1a6c26",
-"assets/assets/project/avatar.png": "c53a5b6155ea83a6ebec54244bf5d413",
 "assets/assets/avatar.png": "c53a5b6155ea83a6ebec54244bf5d413",
 "assets/assets/GoogleSansRegular.ttf": "b5c77a6aed75cdad9489effd0d5ea411",
 "assets/assets/FontManifest.json": "59c37979205b4b43589051e92e27cbcd",
@@ -60,19 +59,23 @@ const RESOURCES = {
 "assets/assets/ps5.jpeg": "7742897c93ee42416115ae017d7f2de2",
 "assets/assets/facebook.png": "021ada146ffb7c1753557ff29618d04c",
 "assets/assets/avatar.jpeg": "c53a5b6155ea83a6ebec54244bf5d413",
-"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"assets/assets/dexter.jpg": "66ad4bd25dc47bda7e6efe26ea55c373",
+"canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
+"canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
+"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
+"canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
+"canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
 "canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
-"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
-};
-
+"canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
+"canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = [
-  "main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
+
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -83,7 +86,6 @@ self.addEventListener("install", (event) => {
     })
   );
 });
-
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
@@ -105,6 +107,8 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+        // Claim client to enable caching on first launch
+        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -130,6 +134,8 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+      // Claim client to enable caching on first launch
+      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
@@ -140,7 +146,6 @@ self.addEventListener("activate", function(event) {
     }
   }());
 });
-
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
@@ -180,7 +185,6 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
-
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
@@ -193,7 +197,6 @@ self.addEventListener('message', (event) => {
     return;
   }
 });
-
 // Download offline will check the RESOURCES for all files not in the cache
 // and populate them.
 async function downloadOffline() {
@@ -214,7 +217,6 @@ async function downloadOffline() {
   }
   return contentCache.addAll(resources);
 }
-
 // Attempt to download the resource online before falling back to
 // the offline cache.
 function onlineFirst(event) {
